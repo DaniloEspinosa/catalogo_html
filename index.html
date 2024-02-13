@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de etiquetas HTML</title>
+</head>
+
+<body>
+  <!-- Soy un comentario-->
+  <!-- 1 - Etiquetas de texto  -->
+  <!-- 1.1 - Titulos -->
+
+  <nombre_etiqueta>Contenido</nombre_etiqueta>
+  <nombre_etiqueta>
+    <nombre_etiqueta nombre_atributo="valor" atributo_booleano></nombre_etiqueta>
+
+    <!-- Estas son las etiquetas para poner títulos -->
+    <!-- Atencion!! No existe h7 en adelante -->
+    <h1 id="titulo1">Soy un título h1</h1>
+    <h2>Soy un h2</h2>
+    <h3>Soy un h3</h3>
+    <h4>Soy un h4</h4>
+    <h5>Soy un h5</h5>
+    <h6>Soy un h6</h6>
+
+    <!-- 1.2 - Párrafos -->
+    <p>Soy un párrafo</p>
+    <p>Me gusta tomar un <strong>café con leche</strong> por la <small>mañana</small></p>
+    <!-- Superíndice = sup -->
+    <p>La fórmula de la teoria de la relatividad es : <strong>e = mc<sup>2</sup></strong> </p>
+    <!-- Subíndice = sub -->
+    <p>La fórmula del agua es H<sub>2</sub>O</p>
+    <p>Una frase famosa de <cite>Galileo</cite> fue: </p>
+    <blockquote>...Sin embargo se mueve</blockquote>
+
+    <!-- 2 - Listas -->
+    <!-- 2.1 - Listas desordenadas = ul unordered lists-->
+    <h2>Lista de la compra semanal</h2>
+    <ul>
+      <li>Leche</li>
+      <li>Queso</li>
+      <li>Jabón</li>
+      <li>Pan</li>
+      <li>Limones</li>
+      <li>Cerveza</li>
+    </ul>
+
+    <!-- 2.2 - Listas ordenadas = ol ordered lists -->
+    <h2>Paises más contaminadores del mundo</h2>
+    <ol type="A" reversed>
+      <li>China</li>
+      <li>India</li>
+      <li>Estados Unidos</li>
+    </ol>
+
+    <!-- 3 - Tablas -->
+    <h2>Ejemplo de factura</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Concepto</th>
+          <th>Unidades</th>
+          <th>Precio</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Televisor Sony 85" 8k</td>
+          <td>1</td>
+          <td>6000 €</td>
+          <td>6000 €</td>
+        </tr>
+        <tr>
+          <td>Frigorífico Balay</td>
+          <td>2</td>
+          <td>1500 €</td>
+          <td>3000 €</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Total</td>
+          <td>9000 €</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- 4 - Imágenes -->
+
+
+    <img src="img/Cafe.webp" alt="Taza negra de café humeante con planta de fondo" width="300" title="Café buenísimo">
+
+    <figure>
+      <img src="https://salagastronomica.mx/assets/Sala-Cafe/WEBP/Cafe.webp"
+        alt="Taza negra de café humeante con planta de fondo" width="300">
+      <figcaption>Café delicioso por la mañana (by Fulanito)</figcaption>
+    </figure>
+
+    <figure>
+      <img src="img/persona-sirviendo-taza-cafe.jpg" alt="Manos de barista sirviendo una taza de café" width="300">
+      <figcaption> <small>Una obra de arte sobre un café (Imagen de chevanon en Freepik)</small> </figcaption>
+    </figure>
+
+    <img src="img/2400.jpg" alt="" sizes="
+    (max-width: 640px) 100vw,
+    (max-width: 1200px) 100vw,
+    (max-width: 1920px) 100vw,
+    (max-width: 2400px) 100vw
+    " srcset="
+    img/640.jpg 640w,
+    img/1200.jpg 1200w,
+    img/1920.jpg 1920w,
+    img/2400.jpg 2400w
+    ">
+
+    <a href="https://google.es" target="_blank">Google</a>
+    <br>
+    <a href="#titulo1">Ir arriba</a>
+    <br>
+    <a href="https://undraw.co/search" target="_blank">
+      <img src="img/20134715_6242776.svg" alt="" width="150">
+    </a>
+
+</body>
+
+</html>
