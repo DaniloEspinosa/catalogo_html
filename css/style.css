@@ -30,3 +30,7 @@ footer {
 span{
     color: goldenrod;
 }
+
+video {
+    width: 100%;
+}
